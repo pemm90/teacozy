@@ -51,19 +51,61 @@ nav{
   text-align: center;
 }
 /*image*/
-
 /*teaofthemonth*/
 .teaofthemonth{
-  width:1000px;
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin-top: 50px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
 }
 .teatypes img {
   width: 300px;
   height:200px;
+  padding: 15px;
 }
-.teatypes{
+.teatypes h4{
+  margin-top: 5px;
+}
+.wrapteatypes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 1000px;
   text-align: center;
+}
+.teaofthemonthtitle{
+  text-align: center;
+}
+.locationcontainer{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 575px;
+  width: 1200px;
+  margin: 50px auto;
+}
+.locationcontainer h2{
+  text-align: center;
+  padding-top: 70px;
+}
+.wraplocations{
+  display: flex;
+  justify-content: center;
+}
+.locationsboxes{
+  background-color: black;
+  width:300px;
+  text-align: center;
+  margin:auto 20px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+}
+/*contact details*/
+.contact{
+  text-align: center;
+}
+/*footer*/
+footer{
+  text-align: left;
+  margin-left:20px;
 }
