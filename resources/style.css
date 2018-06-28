@@ -5,7 +5,7 @@ html{
   color:seashell;
   opacity:0.9;
 }
-
+/*header*/
 header {
   display:flex;
   position: fixed;
@@ -15,6 +15,8 @@ header {
   z-index:1;
   align-items: center;
   justify-content: space-between;
+  background-color: black;
+  top: -0.5%;
 }
 .headerimage img{
   height:50px;
@@ -30,4 +32,38 @@ nav{
 }
 .navbar span a {
   color: seashell;
+}
+/*header*/
+/*image*/
+.imagetitle{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height:700px;
+  width: 1200px;
+  display:flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 70px;
+}
+.imagetext{
+  background-color: black;
+  width: 1200px;
+  display: inline-block;
+  text-align: center;
+}
+/*image*/
+
+/*teaofthemonth*/
+.teaofthemonth{
+  width:1000px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.teatypes img {
+  width: 300px;
+  height:200px;
+}
+.teatypes{
+  text-align: center;
 }
